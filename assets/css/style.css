@@ -1,0 +1,737 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-color: #fff;
+  color: #555;
+}
+
+p {
+  padding: 0 0 20px 0;
+  line-height: 1.7em;
+}
+
+input[type="text"], input[type="password"], input[type="search"] {
+  color: #5d5d5d;
+  width: 60%;
+  padding: 8px;
+} 
+
+input, textarea {
+  outline: none;
+  border: none;
+  border: solid 1px #f2f2f2;
+}
+
+a, a:hover {
+  outline: none;
+  text-decoration: underline;
+  color: #6c5b7b;
+}
+
+ul li {
+  margin: 0 0 6px 0;
+  padding: 0 0 4px 5px;
+  line-height: 1.5em;
+}
+
+
+
+/*Главая*/
+/*задняя часть верхнего меню*/
+.header {
+  background-color: #f8b195;
+  height: 177px;
+  font-size:0.9em;
+  margin-left: 0px;
+  margin-right: 0px;
+  min-width: 900px;
+}
+/*логотип*/
+.logo {
+  margin-left: 400px;
+  padding-top: 20px ;
+}
+
+/*текст логотипа*/
+.logo_text a{
+  font: normal 130% 'century gothic', arial, sans-serif;
+  position: relative;
+  text-decoration: none;
+  color: #6c5b7b;
+}
+
+.logo_text h2{
+  color: #355c7d;
+  font: normal 150% 'revert-layer;', arial, sans-serif;
+}
+/*Главная Товары Отзывы Контакты*/
+ul.menu a{
+  text-decoration: none;
+  display: block;
+}
+
+ul.menu {
+  float: right;
+}
+
+ul.menu li {
+  float: left;
+  padding: 0 20px 0 20px;
+  list-style: none;
+  margin: 1px 2px 0 0;
+}
+
+ul.menu{
+  margin-right: 800px;
+  margin-top: 40px;
+}
+
+/*анимация наведения на ссылку*/
+ul.menu li a:hover {
+  color: #eb984e;
+}
+
+ul.menu li a:active{
+  color: white;
+}
+
+/*правое меню*/
+
+.site_content {
+  width: 1150px;
+  height: 980px;
+  overflow:hidden;
+  margin: 20px auto 0 auto;
+  background-color: white;
+}
+
+.sidebar_container {
+  float: right;
+  width: 200px;
+  margin: 45px 0 0 0;
+}
+
+.sidebar {
+  float: right;
+  width: 222px;
+  padding: 10%;
+  margin: 0 0 16px 0;
+  border: solid 1px #f2f2f2;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.btn {
+  padding: 8px;
+  background-color: white;
+  cursor:pointer;
+}
+
+.sidebar h2 {
+  color: #136cb2;
+  font: normal 150% 'century gothic', Crewniverse_Cyrillic, sans-serif;
+}
+/*выравнивание текста правого меню*/
+.lables_passreg_text {
+  font-size: 0.7em;
+  margin-top: 3%;
+  margin-left: 2%;
+}
+
+
+
+
+
+
+
+/*Контент сайта (товары)*/
+.primer h2{
+  font: normal 150% 'century gothic', Crewniverse_Cyrillic, sans-serif;
+}
+/*Список иконок*/
+.content_block{
+float: right;
+padding: 0 150px 0 0;
+}
+/*иконка продажи*/
+
+/*задний фон иконки*/
+.content{
+  float: left;
+  background-color: #fae5d3;
+  border-radius: 10px;
+  width: 220px;
+  height: 370px;
+  margin: 20px 30px 0 0;
+}
+/*название товара*/
+.content h3{
+  font: normal 125% 'GOST type A Standard', arial, sans-serif;
+  text-align:  center;
+  padding:10px 0 0 0;
+  border-radius: 10px;
+  background-color: #f6ddcc;
+  width: 220px;
+  height: 40px;
+}
+/*цена*/
+.content p{
+  background-color: #fad7a0;
+  border-radius: 10px;
+  text-align:  center;
+  font-size: 1em;
+  margin: 5px 0 0 115px;
+  padding: 5px 0 30px 0;
+  width: 100px;
+  height: 2px;
+}
+/*кнопка купить*/
+.content a{
+    background-color: #fef9e7;
+   text-decoration: none;
+   text-align:  center;
+   border-radius: 10px;
+   font-size: 30px;
+   margin-left: 5px;
+   padding: 0px 5px 5px 5px;
+}
+/*анимация кнопки купить*/
+.content a:hover{
+  color: #f4d03f;
+}
+
+.content a:active{
+  color: white;
+}
+
+/*характеристики товара*/
+.content h5{
+  font: normal 125% 'GOST type A Standard', arial, sans-serif;
+  padding: 0 10px 0 30px;
+  font-size: 1em;
+  text-align: left;
+}
+
+/*картинка товара*/
+.content img{
+  margin:5px 0 0 35px;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+
+} 
+/*информация о сайте*/
+.info {
+  padding: 0 0 10px 0;
+  margin:500px 0 0 0;
+  width: 800px;
+  height: 800px;
+  font-size: 20px;
+  font: normal 125% 'GOST type A Standard', arial, sans-serif;
+}
+
+/*ижнее меню*/
+
+.footer{
+  background-color: #f8b195;
+  height: 177px;
+  font-size:1em;
+  margin-left: 0px;
+  margin-right: 0px;
+  min-width: 900px;
+}
+
+.footer a{
+   margin-left:10px ;
+ }
+
+.footer a:hover{
+    color:  #eb984e;
+ }
+
+ .footer a:active{
+    color:  white;
+ }
+
+.footer p{
+  text-align: center;
+  margin-right: 120px;
+  margin-top: 40px;
+  padding: 20px 0 0 0;
+}
+
+/*страница товаров*/
+.sell_container{
+  margin: 80px 0 0 0;
+  height: 800px;
+  float: left;
+  overflow-y: scroll;
+}
+
+
+.text_sell h1{
+  margin-bottom: 5px;
+  font: normal 200% 'Lineyka', Crewniverse_Cyrillic, sans-serif;
+}
+
+
+
+/*ряд товаров(ПК)*/
+
+/*задний фон иконки*/
+.pc{
+  float: right;
+  background-color: #fae5d3;
+  margin-left: 15px;
+  border-radius: 10px;
+  width: 200px;
+  height: 335px;
+  
+  
+  }
+
+/*название товара*/
+.pc h3{
+  padding-top: 5px;
+  font:normal 110% 'GOST type A Standard', arial, sans-serif;
+  text-align: center;
+  background-color: #f6ddcc;
+  border-radius: 10px;
+  width: 200px;
+  height: 30px;
+}
+
+/*картинка товара*/
+.pc img{
+  margin: 10px 0 0 35px;
+  width: 130px;
+  height: 130px;
+}
+
+/*описание товара*/
+.pc h5{
+  font:normal 105% 'Nunito Light', arial, sans-serif;
+  padding-left: 15px;
+  text-align: left;
+}
+
+/*цена*/
+.pc p{
+  text-align: center;
+  margin: 5px 0 0 110px;
+  background-color: #fad7a0;
+  border-radius: 10px;
+  width: 80px;
+  height: 10px;
+}
+
+/*кнопка купить*/
+.pc a{
+    background-color: #fef9e7;
+   text-decoration: none;
+   text-align:  center;
+   border-radius: 10px;
+   font-size: 25px;
+   margin: 0 0 0 10px;
+   padding: 0px 5px 5px 5px;
+}
+
+/*анимация кнопки купить*/
+.pc a:hover{
+  color: #f4d03f;
+}
+
+.pc a:active{
+  color: white;
+}
+
+
+
+
+
+/*ряд товаров(Электрочайники)*/
+
+/*задний фон иконки*/
+.kip{
+  float: right;
+  background-color: #fae5d3;
+  margin-left: 15px;
+  border-radius: 10px;
+  width: 200px;
+  height: 335px;
+}
+
+/*название товара*/
+.kip h3{
+  padding-top: 5px;
+  font:normal 110% 'GOST type A Standard', arial, sans-serif;
+  text-align: center;
+  background-color: #f6ddcc;
+  border-radius: 10px;
+  width: 200px;
+  height: 30px;
+}
+
+/*картинка товара*/
+.kip img{
+  margin: 10px 0 0 35px;
+  width: 130px;
+  height: 130px;
+}
+
+/*описание товара*/
+.kip h5{
+  font:normal 105% 'Nunito Light', arial, sans-serif;
+  padding-left: 15px;
+  text-align: left;
+}
+
+/*цена*/
+.kip p{
+  text-align: center;
+  margin: 25px 0 0 110px;
+  background-color: #fad7a0;
+  border-radius: 10px;
+  width: 80px;
+  height: 10px;
+}
+
+/*кнопка купить*/
+.kip a{
+    background-color: #fef9e7;
+   text-decoration: none;
+   text-align:  center;
+   border-radius: 10px;
+   font-size: 25px;
+   margin: 0 0 0 10px;
+   padding: 0px 5px 5px 5px;
+}
+
+/*анимация кнопки купить*/
+.kip a:hover{
+  color: #f4d03f;
+}
+
+.kip a:active{
+  color: white;
+}
+
+
+
+
+
+
+/*пылесосы*/
+
+/*задний фон иконки*/
+.pil{
+  float: right;
+  background-color: #fae5d3;
+  margin-left: 15px;
+  border-radius: 10px;
+  width: 200px;
+  height: 335px;
+}
+
+/*название товара*/
+.pil h3{
+  padding-top: 5px;
+  font:normal 110% 'GOST type A Standard', arial, sans-serif;
+  text-align: center;
+  background-color: #f6ddcc;
+  border-radius: 10px;
+  width: 200px;
+  height: 30px;
+}
+
+/*картинка товара*/
+.pil img{
+  margin: 10px 0 0 35px;
+  width: 130px;
+  height: 130px;
+}
+
+/*описание товара*/
+.pil h5{
+  font:normal 105% 'Nunito Light', arial, sans-serif;
+  padding-left: 15px;
+  text-align: left;
+}
+
+/*цена*/
+.pil p{
+  text-align: center;
+  margin: 25px 0 0 110px;
+  background-color: #fad7a0;
+  border-radius: 10px;
+  width: 80px;
+  height: 10px;
+}
+
+/*кнопка купить*/
+.pil a{
+    background-color: #fef9e7;
+   text-decoration: none;
+   text-align:  center;
+   border-radius: 10px;
+   font-size: 25px;
+   margin: 0 0 0 10px;
+   padding: 0px 5px 5px 5px;
+}
+
+/*анимация кнопки купить*/
+.pil a:hover{
+  color: #f4d03f;
+}
+
+.pil a:active{
+  color: white;
+}
+
+
+
+
+
+
+
+
+/*штативы*/
+
+/*задний фон иконки*/
+.hta{
+  float: right;
+  background-color: #fae5d3;
+  margin-left: 15px;
+  border-radius: 10px;
+  width: 200px;
+  height: 335px;
+}
+
+/*название товара*/
+.hta h3{
+  padding-top: 5px;
+  font:normal 110% 'GOST type A Standard', arial, sans-serif;
+  text-align: center;
+  background-color: #f6ddcc;
+  border-radius: 10px;
+  width: 200px;
+  height: 30px;
+}
+
+/*картинка товара*/
+.hta img{
+  margin: 10px 0 0 35px;
+  width: 130px;
+  height: 130px;
+}
+
+/*описание товара*/
+.hta h5{
+  font:normal 105% 'Nunito Light', arial, sans-serif;
+  padding-left: 15px;
+  text-align: left;
+}
+
+/*цена*/
+.hta p{
+  text-align: center;
+  margin: 25px 0 0 110px;
+  background-color: #fad7a0;
+  border-radius: 10px;
+  width: 80px;
+  height: 10px;
+}
+
+/*кнопка купить*/
+.hta a{
+    background-color: #fef9e7;
+   text-decoration: none;
+   text-align:  center;
+   border-radius: 10px;
+   font-size: 25px;
+   margin: 0 0 0 10px;
+   padding: 0px 5px 5px 5px;
+}
+
+/*анимация кнопки купить*/
+.hta a:hover{
+  color: #f4d03f;
+}
+
+.hta a:active{
+  color: white;
+}
+
+
+
+
+/*микроволновки*/
+
+/*задний фон иконки*/
+.mik{
+  float: right;
+  background-color: #fae5d3;
+  margin-left: 15px;
+  border-radius: 10px;
+  width: 200px;
+  height: 335px;
+}
+
+/*название товара*/
+.mik h3{
+  padding-top: 5px;
+  font:normal 110% 'GOST type A Standard', arial, sans-serif;
+  text-align: center;
+  background-color: #f6ddcc;
+  border-radius: 10px;
+  width: 200px;
+  height: 30px;
+}
+
+/*картинка товара*/
+.mik img{
+  margin: 10px 0 0 35px;
+  width: 130px;
+  height: 130px;
+}
+
+/*описание товара*/
+.mik h5{
+  font:normal 105% 'Nunito Light', arial, sans-serif;
+  padding-left: 15px;
+  text-align: left;
+}
+
+/*цена*/
+.mik p{
+  text-align: center;
+  margin: 25px 0 0 110px;
+  background-color: #fad7a0;
+  border-radius: 10px;
+  width: 80px;
+  height: 10px;
+}
+
+/*кнопка купить*/
+.mik a{
+    background-color: #fef9e7;
+   text-decoration: none;
+   text-align:  center;
+   border-radius: 10px;
+   font-size: 25px;
+   margin: 0 0 0 10px;
+   padding: 0px 5px 5px 5px;
+}
+
+/*анимация кнопки купить*/
+.mik a:hover{
+  color: #f4d03f;
+}
+
+.mik a:active{
+  color: white;
+}
+
+
+
+/*отзывы*/
+
+
+/*форма для написания отзыва*/
+
+.comment_file{
+  margin: 45px 0 0 70px;
+  padding: 20px 0px 20px 170px;
+  width: 600px;
+  border: solid 1px #f2f2f2;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  }
+
+  .comment_block{
+    width: 860px;
+    height: 800px;
+    overflow-y: scroll;
+  }
+
+  .comment{
+    width: 700px;
+    height: 100px;
+    padding: 20px 60px 0px 10px;
+    margin: 20px 0 0 70px;
+    text-align: left;
+    border: solid 1px #f2f2f2;
+    border-radius: 10px;
+    background-color: #cacfd2;
+  }
+
+  .comment_file h2{
+    font:normal 130% 'Nunito Light', arial, sans-serif;
+    margin-bottom: 10px;
+   }
+
+   .comment p{
+    margin-top: 10px;
+    font: normal 110% " bookman old style", arial, sans-serif;
+   }
+
+
+   /*контакты*/
+
+
+   .contact_support{
+    margin: 45px 0 0 70px;
+    padding: 20px 0px 20px 170px;
+    width: 600px;
+    border: solid 1px #f2f2f2;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+   }
+
+.contact_support h1{
+   font:normal 130% 'Nunito Light', arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+input[type="support_text"]{
+   color: #5d5d5d;
+  width: 60%;
+  padding: 8px;
+  padding-bottom: 50px;
+}
+
+.contact{
+
+  margin: 50px 0 0 100px;
+  font:normal 130% 'Nunito Light', arial, sans-serif;
+  width: 320px;
+  padding: 2%;
+  border: solid 1px #f2f2f2;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+/*меню покупки*/
+.sellmenu_container{
+  width: 1000px;
+  height: 1000px;
+}
+.sellmenu{
+   margin: 10% 0 0 20%;
+  padding: 10%;
+  width: 600px;
+  border: solid 1px #f2f2f2;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+
+}
+
+input[type="sell1"], input[type="sell2"], input[type="sell3"] {
+  color: #5d5d5d;
+  width: 60%;
+  padding: 8px;
+} 
